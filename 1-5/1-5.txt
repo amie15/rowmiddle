@@ -67,7 +67,8 @@ mv sasaki.txt /Users/amikikuchi/kaneko/furuyama
 
 ⑨「minami」フォルダを削除してください。（中身にデータが入っていないフォルダ）
 
-
+cd /Users/amikikuchi/kaneko
+rm -r minami
 
 
 
