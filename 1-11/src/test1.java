@@ -49,9 +49,10 @@ int intResult = 0;
 int nume = 4;
 int numf = -3;
 String results = "";
+//
+   results = ((nume * numf) > 0) ? (nume > 0 && numf > 0) ? "both positive" : "both negative" :
+             (nume == 0 && numf == 0) ? "etc" : "one positive"  ;
 
-    results = ((nume * numf) > 0) ? (nume > 0 && numf > 0) ? "both positive" : "both negative" : "one positive" ; 
-              
     System.out.println(results);
               
 
