@@ -58,17 +58,10 @@ public class test1 {
         //問題5:この配列"nume"を昇順に並び替えて出力しなさい。
         int[] nume = {6, 2, 8, 1, 9};
         
-       Arrays.sort(nume);
+        Arrays.sort(nume);
        
-       System.out.print("[");
+       System.out.println(Arrays.toString(nume));
        
-       for(int nume1: nume) {
-           System.out.print(nume1 + ",");
-           
-       }
-       
-       System.out.println("]");
-        
         //改行
         System.out.println("問６");
         
@@ -79,12 +72,7 @@ public class test1 {
         System.arraycopy(numf, 0, new_numf, 0, 5);
         new_numf[5] = 10;
         
-        System.out.print("[");
-        for(int new_numf1: new_numf) {
-            System.out.print(new_numf1 + ",");
-        }
-        System.out.println("]");
-        
+        System.out.println(Arrays.toString(new_numf));
         
         //改行
         System.out.println("問７");

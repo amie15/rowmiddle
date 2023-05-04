@@ -17,7 +17,13 @@ public class test1 {
         System.out.println(m);
         
 //		3.boolean型の変数の値に不正な文字列比較を入れてfalseを出力してください。	
-        System.out.println(1 == 2); 
+        boolean k;
+        int j = 1;
+        
+        k = (j == 3);
+        
+        System.out.println(k);
+        
     
     }
 }
