@@ -33,13 +33,32 @@ public class test1 {
 				
 				if(strArray2.get(a) == "k" || strArray2.get(a) == "a" || strArray2.get(a) == "o") {
 					strArray3.add(strArray2.get(a));
-				}
-				else if(a == (strArray2.size() - 1)) {
+					
+					if(a == (strArray2.size() - 1)) {
 				
-					for(int b = 0; b < strArray3.size(); b++) {
+						for(int b = 0; b < strArray3.size(); b++) {
+							
+							if(strArray3.get(b) == "k" && b == 0 ) {
+								strArray4.add(strArray3.get(b));
+							}
+								else if(strArray3.get(b) == "a" && b == 1) {
+									strArray4.add(strArray3.get(b));
+								}
+
+								else if(strArray3.get(b) == "k" && b == 2) {
+									strArray4.add(strArray3.get(b));
+								}
+
+								else if(strArray3.get(b) == "a" && b == 3) {
+									strArray4.add(strArray3.get(b));
+								}
+								
+								else if(strArray3.get(b) == "o" && b == 5){
+									strArray4.add(strArray3.get(b));
+								}
+						}
 						
-//						if(strArray3.get(b) == )
-					}
+				}
 				}
 				
 			}
@@ -47,7 +66,7 @@ public class test1 {
 		}
 		
 
-		System.out.println(strArray3.toString());
+		System.out.println(strArray4.toString());
 		
 	}
 }
