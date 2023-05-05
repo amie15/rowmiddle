@@ -22,7 +22,32 @@ public class test1 {
 		List<String> strArray3 = new ArrayList<String>();
 		List<String> strArray4 = new ArrayList<String>();
 		
+		for(int i = 2; i < strArray1.size(); i++) {
+
+			strArray2.add(strArray1.get(i));
+			
+			if(i == (strArray1.size() - 1)) {
 		
+			for(int a = 0; a < strArray2.size(); a++) {
+//			for(String str2 : strArray2) {
+				
+				if(strArray2.get(a) == "k" || strArray2.get(a) == "a" || strArray2.get(a) == "o") {
+					strArray3.add(strArray2.get(a));
+				}
+				else if(a == (strArray2.size() - 1)) {
+				
+					for(int b = 0; b < strArray3.size(); b++) {
+						
+//						if(strArray3.get(b) == )
+					}
+				}
+				
+			}
+			}
+		}
+		
+
+		System.out.println(strArray3.toString());
 		
 	}
 }
