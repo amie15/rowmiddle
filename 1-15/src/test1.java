@@ -35,14 +35,18 @@ public class test1 {
 		
 		String result = new StringBuilder(kaibun).reverse().toString();
 		
-		if (result == kaibun) {
-			System.out.println("この文字列は回文です");
-		}
-		
-		else {
-			System.out.println("この文字列は回文ではありません");
-		}
-		
+//
+//		System.out.println(kaibun);
+//		System.out.println(result);
+		System.out.println(result.equals(kaibun));
+//		if (result == kaibun) {
+//			System.out.println("この文字列は回文です");
+//		}
+//		
+//		else {
+//			System.out.println("この文字列は回文ではありません");
+//		}
+//		
 	}
 	
 	
