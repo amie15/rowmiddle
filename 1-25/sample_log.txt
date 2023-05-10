@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-05-10T08:01:48.886867Z</date>
+  <millis>1683705708886</millis>
+  <nanos>867000</nanos>
+  <sequence>0</sequence>
+  <logger>middleskill log</logger>
+  <level>INFO</level>
+  <class>Test1</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>ミドルスキルログが発生しました。</message>
+  <exception>
+    <message>java.lang.NullPointerException</message>
+    <frame>
+      <class>Test1</class>
+      <method>main</method>
+      <line>41</line>
+    </frame>
+  </exception>
+</record>
+</log>

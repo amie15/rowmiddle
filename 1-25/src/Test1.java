@@ -1,3 +1,7 @@
+import java.io.File;
+import java.io.IOException;
+import java.util.logging.FileHandler;
+import java.util.logging.Handler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -17,9 +21,13 @@ public class Test1{
 		Logger middleskill = Logger.getLogger("middleskill log");
 
 		middleskill.setLevel(Level.CONFIG);	
+
+        String path =  System.getProperty("user.dir"); path = new File(path, "sample_log.txt").getPath();
+        System.out.println(path);
 		
 		try {
-			
+			Handler middleskill_log = new FileHandler(path);
+            middleskill.addHandler(middleskill_log);
 //			ConsoleHandler src = new ConsoleHandler();
 //			middleskill.addHandler(src);
 //			
@@ -36,6 +44,12 @@ public class Test1{
 			
 			middleskill.log(Level.INFO,"ミドルスキルログが発生しました。", e);
  
+		} catch (SecurityException e) {
+			// TODO 自動生成された catch ブロック
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO 自動生成された catch ブロック
+			e.printStackTrace();
 		}
 		
 	}
