@@ -26,7 +26,8 @@ public class test1 {
 	//問題1:2つの整数を受け取り、それらの和を返すメソッドを作成してください。
 	
 	public static void q1(int num1 ,int num2) {
-		System.out.println(num1 + "," + num2 );
+		int num3 = num1 + num2;
+		System.out.println(num3);
 	}
 	
 	//問題2:文字列を受け取り、その文字列が回文であるかどうかを返すメソッドを作成してください。
@@ -64,11 +65,11 @@ public class test1 {
 		static void q4(int[] b) {
 			int n = 0;
 			for(int i =0; i<b.length; i++) {
-				if(i==0) {
-					n = b[i];
+				if(b[i]==0) {
+					n = i;
 				}
-				else if(b[i]<n) {
-					n = b[i];
+				else if(b[i]<b[n]) {
+					n = i;
 				}
 				
 			}
