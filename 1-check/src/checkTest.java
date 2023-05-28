@@ -120,15 +120,14 @@ public class checkTest {
         try{
             int number = Integer.parseInt(str);
             System.out.println(number); // output = 25
-            if()
             
-        }
-        catch (NumberFormatException e){
-            System.out.println("変換できません");
         }
         catch(NullPointerException e){
 			System.out.println("nullです。");
 		}
+        catch (NumberFormatException e){
+            System.out.println("変換できません");
+        }
         catch(Exception e) {
             System.out.println("Exceptionが発生しました。");
             
