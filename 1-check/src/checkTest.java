@@ -111,13 +111,15 @@ public class checkTest {
 		//1.入力された文字列がnullの場合（NullPointerExceptionが発生する）
 		//2.入力された文字列が空文字列の場合（Exceptionが発生する）
 		//3.入力された文字列が整数に変換できない場合（NumberFormatExceptionが発生する）
-		Scanner scn2 = new Scanner(System.in);
-        String str ;
-        System.out.print("整数を入力してください　= ");
 
-		str = scn2.nextLine();
         
         try{
+    		Scanner scn2 = new Scanner(System.in);
+            String str ;
+            System.out.print("整数を入力してください　= ");
+
+    		str = scn2.nextLine();
+    		
             int number = Integer.parseInt(str);
             System.out.println(number); // output = 25
             
@@ -125,10 +127,10 @@ public class checkTest {
         catch(NullPointerException e){
 			System.out.println("nullです。");
 		}
-        catch (NumberFormatException e){
+        catch (NumberFormatException e2){
             System.out.println("変換できません");
         }
-        catch(Exception e) {
+        catch(Exception e3) {
             System.out.println("Exceptionが発生しました。");
             
         }
@@ -139,6 +141,8 @@ public class checkTest {
      	//改行
 		System.out.println("問９");
 		//問9 Java編終わった感想と改善点もしございましたらお願いします。
-		//『ここに書いてね』
+		//チェックテスト問８がわかりませんでした。
+		//調べながらですが進めることができてよかったです。
+		//基本的な所だと思うので、調べなくてもコード描けるようになりたいと思います。』
 	}
 }
