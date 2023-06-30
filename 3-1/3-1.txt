@@ -23,3 +23,4 @@
 
  
 ⑥DBの接続情報を記載する設定ファイル名は何になりますか？
+application.properties
