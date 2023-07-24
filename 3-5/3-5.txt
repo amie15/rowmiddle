@@ -14,7 +14,8 @@ Dao
 
 ③次の中でリポジトリで取得した値を格納するものはどれですか？(controller、service、view、seviceimpl、entity、dao、daoimpl)
 
-Daoimpl
+Dao
+
 
 
 ④AOPとは何ですか？
