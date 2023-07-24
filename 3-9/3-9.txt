@@ -62,4 +62,4 @@
 
 ⑪バリデーションメッセージを一括で管理するためのファイル名は何ですか？
 
-DTO
+ValidationMessages.properties
