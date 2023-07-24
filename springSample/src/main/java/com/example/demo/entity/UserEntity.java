@@ -26,8 +26,8 @@ public class UserEntity {
 @Id
 @GeneratedValue(strategy = GenerationType.IDENTITY)
 @Column(name = "id")
-//2行追加
-
+//1行追加
+private String id;
 /**
 * 名前
 */
@@ -45,10 +45,16 @@ private String address;
 */
 //2行追加
 
+@Column(name = "phone")
+private String phone;
+
 /**
 * 更新日時
 */
 //2行追加
+
+@Column(name = "update_date")
+private String update_date;
 
 /**
 * 登録日時
