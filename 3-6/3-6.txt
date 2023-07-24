@@ -31,5 +31,4 @@ Bean
 
 ⑤form、entity、dtoのうちDBに大きく携わるのはどれになりますか？
 
-Form
-
+entity
