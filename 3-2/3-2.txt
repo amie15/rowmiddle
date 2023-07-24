@@ -35,8 +35,8 @@ M
 
 
 
-「view」→「controller」→「　form」→「controller」→「Service　」→「controller　」
-→「sevice　」→「dao　」→「Entity」→「DB」→「Entity」→「daoimpl」
+「view」→「controller」→「　form」→「controller」→「Service　」→「Serviceimpl　」
+→「doa　」→「daoimpl　」→「Entity」→「DB」→「Entity」→「daoimpl」
 →「　dao」→「　serviceimpl」→「　sevice」→「controller」→「　form」→「controller」
 →「view」
 
