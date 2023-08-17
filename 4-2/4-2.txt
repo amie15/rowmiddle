@@ -20,7 +20,7 @@
 
 ②ブロックレベル要素を10個以上上げなさい
  「 <address>、<blockquote>、<center>、<div>、<dl>、<fieldset>、<form>、<h1>-<h6>、
-<hr>」
+<hr>,<noframes>」
 
 
 ③インライン要素を10個以上上げなさい
